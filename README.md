@@ -5,7 +5,7 @@ This derived work is free to copy and share under CC-BY-SA 2.0. Only for non-pro
 See and browse it at:  
 https://smaprs.github.io/web-QGIS-threejs-everest/
   
- ![3D digital elevation model of Mount Everest](http://i.imgur.com/grGKnbr.png)  
+ ![3D digital elevation model of Mount Everest](http://i.imgur.com/zQp4AVp.jpg)  
    
 Made in QGIS using:  
 -Contour lines made with Raster plugin from GdalTools;  
