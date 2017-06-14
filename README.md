@@ -1,4 +1,4 @@
-# web-QGIS-threejs-everest
+# Everest-3D
 3D DEM (digital elevation model) in orbital view of Mount Everest.  
 This derived work is free to copy and share under CC-BY-SA 2.0. Only for non-profit purposes.  
   
