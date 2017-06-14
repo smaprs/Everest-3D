@@ -3,7 +3,7 @@
 This derived work is free to copy and share under CC-BY-SA 2.0. Only for non-profit purposes.  
   
 See and browse it at:  
-https://smaprs.github.io/web-QGIS-threejs-everest/
+https://smaprs.github.io/Everest-3D/
   
  ![3D digital elevation model of Mount Everest](http://i.imgur.com/zQp4AVp.jpg)  
    
