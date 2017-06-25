@@ -94,9 +94,9 @@ THREE.OrbitControls = function ( object, domElement ) {
 	this.keyPanSpeed = 7.0;	// pixels moved per arrow key push
 
 	// Set to true to automatically rotate around the target
-	this.autoRotate = false;
-	this.autoRotateSpeed = 2.0; // 30 seconds per round when fps is 60
-
+	this.autoRotate = true;
+	this.autoRotateSpeed = 3.0; // 30 seconds per round when fps is 60: 6=60sec/round; 3=120sec/round
+	
 	// How far you can orbit vertically, upper and lower limits.
 	// Range is 0 to Math.PI radians.
 	this.minPolarAngle = 0; // radians
@@ -133,11 +133,11 @@ THREE.OrbitControls = function ( object, domElement ) {
 	var dollyEnd = new THREE.Vector2();
 	var dollyDelta = new THREE.Vector2();
 
-	var phiDelta = 0;
-	var thetaDelta = 0;
+	var phiDelta = 0.35 // ângulo ao horizonte: 0=60dg; 0.25=20dg; 0.4=30dg; 0.5=20dg; 0.79=0=horizontal;
+	var thetaDelta = 0; // ângulo do azimute: 0=Norte; 0.25=Noroeste
 	var cameraPhiDelta = 0;
 	var cameraThetaDelta = 0;
-	var scale = 1;
+	var scale = 0.85; // zoom : 1=1x; 1.1=0.9x; 0.9=1.1x
 	var pan = new THREE.Vector3();
 
 	var lastPosition = new THREE.Vector3();

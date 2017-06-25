@@ -2,7 +2,7 @@
 <html>
 <head>
 <meta charset="UTF-8">
-<title>nasa-landsat</title>
+<title>index</title>
 <meta name="viewport" content="width=device-width, user-scalable=no, minimum-scale=1.0, maximum-scale=1.0">
 <link rel="stylesheet" type="text/css" href="./Qgis2threejs.css">
 </head>
@@ -42,9 +42,10 @@ and uses the following library:
 <script src="./threejs/OrbitControls.js"></script>
 <script>
 var option = Q3D.Options;
-option.bgcolor = 0x000046;
+option.bgcolor = 0x00002c;
 </script>
-<script src="./nasa-landsat.js"></script>
+<script src="./proj4js/proj4.js"></script>
+<script src="./index.js"></script>
 <script>
 if (typeof proj4 !== "undefined") document.getElementById("lib_proj4js").style.display = "list-item";
 
