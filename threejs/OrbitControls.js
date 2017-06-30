@@ -133,11 +133,11 @@ THREE.OrbitControls = function ( object, domElement ) {
 	var dollyEnd = new THREE.Vector2();
 	var dollyDelta = new THREE.Vector2();
 
-	var phiDelta = 0.35 // ângulo ao horizonte: 0=60dg; 0.25=20dg; 0.4=30dg; 0.5=20dg; 0.79=0=horizontal;
+	var phiDelta = 0.5 // ângulo ao horizonte: 0=60dg; 0.25=20dg; 0.4=30dg; 0.5=20dg; 0.79=0=horizontal;
 	var thetaDelta = 0; // ângulo do azimute: 0=Norte; 0.25=Noroeste
 	var cameraPhiDelta = 0;
 	var cameraThetaDelta = 0;
-	var scale = 0.85; // zoom : 1=1x; 1.1=0.9x; 0.9=1.1x
+	var scale = 0.75; // zoom : 1=1x; 1.1=0.9x; 0.9=1.1x
 	var pan = new THREE.Vector3();
 
 	var lastPosition = new THREE.Vector3();
